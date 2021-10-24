@@ -50,7 +50,7 @@
 .header{
     height:50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(34, 33, 33, 0.75),rgba(34,33,33,0.75)),url(bg.jpg);
+    background-image: linear-gradient(rgba(34, 33, 33, 0.75),rgba(34,33,33,0.75)),url(images/bg.jpg);
     background-position: center;
     background-size: cover;
     background-blend-mode: darken;
