@@ -1,0 +1,30 @@
+Overall look of Cup-fee
+-----------------------
+Our website will be simple and easy to use, but still eye-catching. It will feature animations and 2-D icons. It has been personalized for both desktop and mobile users.
+The navigation is located at the top of the page, whilst the contact information is located at the bottom.
+
+
+Colour Palette
+-----------------------
+The colours we used reflect colours related to coffee, this includes brown and beige colours. It has an earthy feeling. Regular colours such as white and black have also 
+been used.
+#c49e7a
+#ffffff
+#000000
+#009688
+
+Iconography
+-----------------------
+Simple, straightforward 2-D icons have been used. These have been personalized to their functions such as: delivery and shop icons.
+
+Typography
+-----------------------
+We will be using Alconica and Sans-serif from Google Fonts.
+
+Links
+-----------------------
+Links will change colour when hovered over. It has been personalized for use on both mobile and desktop.
+
+Buttons
+-----------------------
+Buttons have rounded edges and change colour when hovered over.
