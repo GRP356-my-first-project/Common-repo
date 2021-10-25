@@ -414,7 +414,7 @@ bottom: 0;
     width: 100%;
 }
 /*---------------------------------------------------------features page------------------------------------------------------*/
-.header{
+.hdr{
     height:50vh;
     width: 100%;
     background-image: linear-gradient(rgba(34, 33, 33, 0.75),rgba(34,33,33,0.75)),url(images/bg.jpg);
