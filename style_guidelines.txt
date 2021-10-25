@@ -6,8 +6,7 @@ The navigation is located at the top of the page, whilst the contact information
 
 Colour Palette
 -----------------------
-The colours we used reflect colours related to coffee, this includes brown and beige colours. It has an earthy feeling. Regular colours such as white and black have also 
-been used.
+The colours we used reflect colours related to coffee, this includes brown and beige colours. It has an earthy feeling. Regular colours such as white, black and grey have also been used.
 #c49e7a
 #ffffff
 #000000
