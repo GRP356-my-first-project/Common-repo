@@ -461,6 +461,39 @@ h2{
 .adv:hover{
     box-shadow:0 0 100px 0px  rgba(0,0,0,0.2);
 }
+/*-------------------------------features:supplies-----------------------------------------------*/
+.product{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row1{
+    content: "";
+    display: table;
+    clear: both;
+}
+.product img{
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 1.5s;
+    
+
+    
+}
+.product h3{
+    margin-top: 1px;
+    margin-bottom: 15px;
+    color: #c49e7a;
+    
+}
+.product:hover{
+    transform: translateY(-10px);
+}
 /*-------------------------------contact us(bottom of the page)----------------------------------*/
 .contact-us{
     margin: 100px auto;
