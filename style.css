@@ -1,9 +1,14 @@
-*{
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.oussama{
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+.oussama{
     font-size:10px;
     font-family: sans-serif;
 }
@@ -822,9 +827,6 @@ h6{
 }
 .team-content{
     color: black;
-}
-a:hover{
-    color: blue;
 }
 img:hover{
     transform: scale(1.5);
