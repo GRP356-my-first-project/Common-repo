@@ -701,7 +701,7 @@ a:focus{
     outline: none;
     text-decoration: none;
 }
-p{
+.team-content p{
     padding: 0;
     margin: 0 0 15px 0;
     color: black;
@@ -718,7 +718,7 @@ h6{
     color: black;
     font-weight: 700;
 }
-img{
+.images1 img{
     width: 100%;
     height: auto;
 }
