@@ -18,7 +18,7 @@ Simple, straightforward 2-D icons have been used. These have been personalized t
 
 Typography
 -----------------------
-We will be using Alconica and Sans-serif from Google Fonts.
+We will be using Alconica, Serif and Sans-serif from Google Fonts.
 
 Links
 -----------------------
@@ -27,3 +27,7 @@ Links will change colour when hovered over. It has been personalized for use on 
 Buttons
 -----------------------
 Buttons have rounded edges and change colour when hovered over.
+
+Images
+----------------------
+Images will be interactive and will increase in size or zoom in when hovered over
