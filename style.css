@@ -1,14 +1,9 @@
-{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
-.oussama{
+*{
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
-.oussama{
+html{
     font-size:10px;
     font-family: sans-serif;
 }
