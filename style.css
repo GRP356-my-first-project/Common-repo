@@ -3,7 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
+.oussama{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.oussama{
     font-size:10px;
     font-family: sans-serif;
 }
