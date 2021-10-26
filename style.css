@@ -544,82 +544,40 @@ h2{
 
 /*------------------------------PRODUCT PRICING -----------------------------*/
 /* cups offered */
-.section-title {
-    font-size: 50px;
-    font-family: 'Sans-serif', cursive;
-    font-weight: 100;
-    position: relative;
+.products .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
 }
 
-.section-title::before {
-    content: "";
-    position: absolute;
-    background-color:#c49e7a;
-    width: 50px;
-    height: 7px;
-    bottom: 0;
+.products .box-container .box{
+    text-align: center;
+    border:var(--border);
+    padding: 2rem;
 }
 
-.best-cups {
-    background-color:#c49e7a;
-    min-height: 500px;
-    display: flex;
-    flex-wrap: wrap;
+.products .box-container .box .image{
+    padding: 2.5rem 0;
 }
 
-.best-items {
-    margin: 100px;
-
+.products .box-container .box .image img{
+    height: 25rem;
 }
 
-.cup-box {
-    background-size: cover;
-    background-position: center;
-    min-width: 350px;
-    height: 500px;
-    flex: 1;
+.products .box-container .box .content h3{
+    color:#fff;
+    font-size: 2.5rem;
 }
 
-.no-grid {
-    min-width: 350px;
-    height: 500px;
-    flex: 1;
+.products .box-container .box .content .info{
+    color:#fff;
+    font-size: 1.5em;
 }
 
-.cup1 {
-    background-image: url(C:\Users\AMR_Service_Center\Desktop\Picture1.jpg);
-}
-
-.cup2 {
-    background-image: url(C:\Users\AMR_Service_Center\Desktop\Picture2.jpg);
-}
-
-.cup3 {
-    background-image: url(C:\Users\AMR_Service_Center\Desktop\Picture3.jpg);
-}
-
-.cup4 {
-    background-image: url(C:\Users\AMR_Service_Center\Desktop\Picture4.jpg);
-}
-
-.cup-details {
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    background-color: #FFFFFFDF;
-    padding: 5px 20px;
-}
-
-.cup-name {
-    font-size: 22px;
-    font-weight: 600;
-}
-
-.cup-price {
-    color: #c49e7a;
-    line-height: 3px;
-    font-size: 14px;
-    font-weight: 800;
+.products .box-container .box .content .info span{
+    text-decoration: line-through;
+    font-weight: lighter;
+    font-size: 1rem;
 }
 
 
