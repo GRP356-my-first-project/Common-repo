@@ -1,5 +1,4 @@
-# CUP-FFEE
-## By FOTW35
+# CUP-FFEE By FOTW35
 
 ## Team Members:
 Abderrahman Bouayad - Student Number 300258676
