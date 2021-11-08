@@ -1,12 +1,12 @@
-# CUP-FFEE By FOTW35
+# CUP-FFEE BY FOTW35
 
 ## Team Members:
-Abderrahman Bouayad - Student Number 300258676
-Anas El Malki - Student Number 300248697
-Mohamed Oussama El Malki - Student Number 300248698
-Nassym Ait Chitt - Student Number 300260181
-Solin Maaroof - Student Number 300250903
-Taha Talha - Student Number 300264187
+- Abderrahman Bouayad - Student Number 300258676
+- Anas El Malki - Student Number 300248697
+- Mohamed Oussama El Malki - Student Number 300248698
+- Nassym Ait Chitt - Student Number 300260181
+- Solin Maaroof - Student Number 300250903
+- Taha Talha - Student Number 300264187
 
 ## Product Name: 
 Cup-ffee
