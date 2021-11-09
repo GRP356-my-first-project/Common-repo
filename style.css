@@ -542,74 +542,6 @@ h2{
 
 }
 
-/*------------------------------PRODUCT PRICING -----------------------------*/
-/* cups offered */
- :root{
-    --main-color:#d3ad7f;
-    --black:#13131a;
-    --bg:#010103;
-    --border:.1rem solid rgba(255,255,255,.3);
-}
-
-*{
-    font-family: 'Sans", sans-serif;
-    margin:0; padding:0;
-    box-sizing: border-box;
-    outline: none; border:none;
-    text-decoration: none;
-    transition: .2s linear;
-}
-
-html{
-    font-size: 62.5%;
-    overflow-x: hidden;
-    scroll-padding-top: 9rem;
-    scroll-behavior: smooth;
-}
-
-body{
-    background: var(--bg);
-}
-
-section{
-    padding:2rem 7%;
-}
-
-.products .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:1.5rem;
-}
-
-.products .box-container .box{
-    text-align: center;
-    border:var(--border);
-    padding: 2rem;
-}
-
-.products .box-container .box .image{
-    padding: 2.5rem 0;
-}
-
-.products .box-container .box .image img{
-    height: 25rem;
-}
-
-.products .box-container .box .content h3{
-    color:#fff;
-    font-size: 2.5rem;
-}
-
-.products .box-container .box .content .info{
-    color:#fff;
-    font-size: 1.5em;
-}
-
-.products .box-container .box .content .info span{
-    text-decoration: line-through;
-    font-weight: lighter;
-    font-size: 1rem;
-}
 /* 	How is it going to be sold? */
 html{
     font-size: 62.5%;
@@ -904,10 +836,123 @@ img:hover{
     transform: scale(1.5);
 }
 
+/*-------------------products-----------------*/
+body{
+    margin: 0;
+    font-family:Nunito Sans;
+    }
 
+    h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+    }
 
+    a{
+    text-decoration: none;
+    }
 
+    .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    }
 
+    .content{
+    width: 22%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius:10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: .4s;
+    }
 
+    .content:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    transform: translate(0px, -8px);
+    transition: .6s;
+    }
 
+    img{
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    }
 
+    p{
+    text-align: center;
+    color: #757575;
+    padding: 0 8px;
+    }
+
+    h6{
+    font-size: 26px;
+    text-align: center;
+    color: #070707;
+    margin: 0;
+    }
+
+    ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    }
+
+    li{
+    padding: 5px;
+    }
+
+    .fa{
+    color: #ff9f43;
+    font-size: 26px;
+    transition: .4s;
+    }
+
+    .fa:hover{
+    transform: scale(1.3);
+    transition: .6s;
+    }
+
+    button{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    border:0px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    }
+
+    .buy{
+    background-color: #c49e7a;
+    }
+    
+    @media(max-width: 1000px){
+    .content{
+    width: 46%;
+    }
+    }
+    
+    @media(max-width: 750px){
+    .content{
+    width: 100%;
+    }
+    }
