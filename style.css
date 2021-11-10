@@ -40,54 +40,7 @@
 .navbar ul li:hover:after{
     width: 100%;
 }
-/*---------------------------------------------------------features page------------------------------------------------------*/
-.hdr{
-    height:50vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(34, 33, 33, 0.75),rgba(34,33,33,0.75)),url(images/bg.jpg);
-    background-position: center;
-    background-size: cover;
-    background-blend-mode: darken;
-    text-align: center;
-    color:#fff;
 
-}
-
-.about{
-    width:80%;
-    margin:auto;
-    text-align: center;
-    padding-top: 100px;
-}
-.about h1{
-    font-size: 36px;
-    font-weight: 600;
-}
-
-.row{
-    margin-top: 5%;
-    display:flex;
-    justify-content:space-between;
-}
-.adv{
-    flex-basis: 32%;
-    background:#c49e7a;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding:20px 12px;
-    box-sizing:border-box;
-    transition: 0,75s;
-
-}
-h2{
-    text-align: center;
-    font-weight: 600;
-    margin:10px 0;
-
-}
-.adv:hover{
-    box-shadow:0 0 100px 0px  rgba(0,0,0,0.2);
-}
 /*-------------------------------features:supplies-----------------------------------------------*/
 .product{
     flex-basis: 31%;
@@ -121,48 +74,7 @@ h2{
 .product:hover{
     transform: translateY(-10px);
 }
-/*-------------------------------contact us(bottom of the page)----------------------------------*/
-.contact-us{
-    margin: 100px auto;
-    width:80%;
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner2.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    text-align: center;
-    padding: 100px 0;
-}
-.contact-us h1{
-    color:#fff;
-    margin-bottom: 40px;
-    padding:0;
 
-}
-.click{
-    display:inline-block;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 12px 34px;
-    font-size: 13px;
-    background:transparent;
-    position:relative;
-    cursor: pointer;
-    border-radius: 25px;
-
-
-}
-.click:hover{
-    border: 1px solid #c49e7a;
-    background: #c49e7a;
-    transition: 1s;
-}
-@media(max-width:700px){
-    .click h1{
-        font-size: 24px;
-    }
-
-}
 
 /* 	How is it going to be sold? */
 html{
