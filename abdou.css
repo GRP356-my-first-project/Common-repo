@@ -1,6 +1,4 @@
-*{
-    box-sizing: border-box;
-}
+
 .product{
     flex-basis: 31%;
     border-radius: 10px;
@@ -8,15 +6,19 @@
     text-align: center;
     float: left;
     width: 33.33%;
-    padding: 5px;
+    padding: 35px;
 }
-
+.h1{
+  font-size: xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .row1{
     content: "";
     display: table;
     clear: both;
 }
 .product img{
+    margin-top: 50px;
     width: 100%;
     border-radius: 10px;
     transition: transform 1.5s;
@@ -24,11 +26,13 @@
 
     
 }
-.product h3{
-    margin-top: 1px;
-    margin-bottom: 15px;
-    color: burlywood;
-    
+.product h2{
+        margin-top: 30px;
+        margin-bottom: 0px;
+        color: burlywood;
+        text-align: center;
+        font-size: x-large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .product:hover{
     transform: translateY(-10px);
