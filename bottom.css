@@ -1,0 +1,40 @@
+/*-------------------------------contact us(bottom of the page)----------------------------------*/
+.contact-us{
+    margin: 100px auto;
+    width:80%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.contact-us h1{
+    color:#fff;
+    margin-bottom: 40px;
+    padding:0;
+
+}
+.click{
+    display:inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background:transparent;
+    position:relative;
+    cursor: pointer;
+    border-radius: 25px;
+
+
+}
+.click:hover{
+    border: 1px solid #c49e7a;
+    background: #c49e7a;
+    transition: 1s;
+}
+@media(max-width:700px){
+    .click h1{
+        font-size: 24px;
+    }
