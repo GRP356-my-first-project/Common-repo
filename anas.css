@@ -1,9 +1,5 @@
-*{
-    margin:0;
-    padding:0;
-    font-family: sans-serif;
-}
-/*------------------------------NAVBAR 2 -----------------------------*/
+
+/*------------------------------NAVBAR 2 -----------------------------
 .navbar{
     width:85%;
     margin: auto;
@@ -43,10 +39,10 @@
 }
 .navbar ul li:hover:after{
     width: 100%;
-}
+}*/
 /*---------------------------------------------------------features page------------------------------------------------------*/
 .hdr{
-    height:50vh;
+    height:60vh;
     width: 100%;
     background-image: linear-gradient(rgba(34, 33, 33, 0.75),rgba(34,33,33,0.75)),url(images/bg.jpg);
     background-position: center;
@@ -55,6 +51,11 @@
     text-align: center;
     color:#fff;
 
+}
+.ft{
+    font-size:xx-large;
+    padding:top:250px;
+    font-family:Georgia, "Times New Roman", Times, serif
 }
 
 .about{
