@@ -55,7 +55,9 @@ html{
     overflow-x: hidden;
     flex-direction: column;
     transition: 0.5s ease left;
-    font-size: 30px;   
+    font-size:10px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.15;
 
 }
 #header .nav-list ul.active{
