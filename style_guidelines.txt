@@ -18,7 +18,7 @@ Simple, straightforward 2-D icons have been used. These have been personalized t
 
 Typography
 -----------------------
-We will be using Alconica, Serif and Sans-serif from Google Fonts.
+We will be using Alconica, Roboto, Serif and Sans-serif from Google Fonts.
 
 Links
 -----------------------
