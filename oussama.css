@@ -29,8 +29,9 @@ html{
     min-height: 8vh;
 }
 .brand{
-    font-weight: bold;
-    font-size: x-large;
+    font-weight: italic;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
 }
 #header .nav-bar{
     display: flex;
