@@ -1,33 +1,4 @@
-
-/* 	How is it going to be sold? */
-html{
-    font-size: 62.5%;
-    overflow-x: hidden;
-    scroll-padding-top: 9rem;
-    scroll-behavior: smooth;
-}
-
-html::-webkit-scrollbar{
-    width: .8rem;
-}
-
-html::-webkit-scrollbar-track{
-    background: transparent;
-}
-
-html::-webkit-scrollbar-thumb{
-    background: #fff;
-    border-radius: 5rem;
-}
-
-body{
-    background:#c49e7a ;
-}
-
-section{
-    padding:2rem 7%;
-}
-
+/*  How is it going to be sold? */
 .heading{
     text-align: center;
     color:#fff;
@@ -35,22 +6,20 @@ section{
     padding-bottom: 3.5rem;
     font-size: 4rem;
 }
-
-.heading span{
-    color:var(--main-color);
-    text-transform: uppercase;
+.about{
+    margin-top: 120px;
+    margin-bottom: -20px;
 }
-
 .btn{
     margin-top: 1rem;
     display: inline-block;
     padding:.9rem 3rem;
     font-size: 1.7rem;
-    color:#fff;
-    background: var(--main-color);
+    color:black;
+    background:#c49e7a;
     cursor: pointer;
+    border-radius: 32px;
 }
-
 .btn:hover{
     letter-spacing: .2rem;
 }
@@ -60,27 +29,33 @@ section{
     background:var(--black);
     flex-wrap: wrap;
 }
-
 .about .row .image{
     flex:1 1 45rem;
+    margin-right: 20px;
+    margin-left: 20px;
 }
-
 .about .row .image img{
-    width: 100%;
+    width: 85%;
+    height: auto;
+}
+.image:hover{
+    transform: translateY(-10px);
+    
 }
 .about .row .content{
     flex:1 1 45rem;
     padding:2rem;
 }
-
 .about .row .content h3{
     font-size: 3rem;
-    color:#fff;
+    color:#c49e7a;
+    text-align: center;
 }
 
 .about .row .content p{
     font-size: 1.6rem;
-    color:#ccc;
+    color:white;
     padding:1rem 0;
     line-height: 1.8;
+    text-align: center;
 }
