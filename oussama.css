@@ -49,10 +49,10 @@ html{
     animation-delay: 1s;
 }
 #pageprincipale h1:nth-child(2){
-    animation-delay: 1.5s;
+    animation-delay: 1.25s;
 }
 #pageprincipale h1:nth-child(3){
-    animation-delay: 3s;
+    animation-delay: 1.5s;
 }
 #pageprincipale h1 span{
     position: absolute;
@@ -68,21 +68,33 @@ html{
     animation-delay:0.5s ;
 }
 #pageprincipale h1:nth-child(2) span{
-    animation-delay:1s ;
+    animation-delay:0.75s ;
 }
 #pageprincipale h1:nth-child(3) span{
-    animation-delay:2.5s ;
+    animation-delay:1s ;
 }
 /* end content home page*/
 /*services*/
 .services {
     display: flex;
     justify-content:space-between;
-    margin: 10px;
-    padding: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 90%;
     background-color: black;
 }
-
+@media only screen and (max-width: 800px){
+    .services {
+        display:inline-block;
+        justify-content:space-between;
+        background-color: black;
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        padding: 20px;
+    }}
 .service-item{
     display: flex;
     flex-direction: column;
@@ -169,8 +181,10 @@ html{
     flex-basis: 50%;
     height: 300px;
     overflow: hidden;
+    width: 100%;
     position: relative;
-    width: 600px;
+    display: flex;
+    margin: auto;
     align-items: center;
     
 }
