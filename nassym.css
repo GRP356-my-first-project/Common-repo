@@ -11,7 +11,10 @@ body{
     font-family: 'Times New Roman', Times, serif;
     color: white;
     font-weight: 300;
-    background: whitesmoke;
+    background: rgba(46, 46, 46, 0.164);
+}
+#pageprincipale h1:hover {
+    background-color: black;
 }
 a{
     color:white;
@@ -32,7 +35,6 @@ a:focus{
     font-weight: 300;
 }
 h1{
-    color:black;
     background-color: black;
     padding: 10px;
 }
