@@ -60,7 +60,7 @@ html{
     left: 0;
     height: 100%;
     width: 0;
-    background-color: #009688;
+    background-color: #c49e7a;
     animation: text_reveal_box 1s ease;
     animation-delay: 0.5s;
 }
@@ -166,7 +166,7 @@ html{
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    background-color: #009688;
+    background-color: #c49e7a;
     color: white;
 }
 .projects-info h1{
