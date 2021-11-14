@@ -31,7 +31,11 @@ a:focus{
     color: white;
     font-weight: 300;
 }
-h1,
+h1{
+    color:black;
+    background-color: black;
+    padding: 10px;
+}
 h2,
 h3,
 h4,
