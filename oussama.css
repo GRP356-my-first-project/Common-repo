@@ -44,7 +44,7 @@ html{
     animation-delay:1s ;
     font-family: 'Times New Roman', Times, serif;  
     font-size: 80px;
-    margin-top:20%;
+    margin-top:10%;
 }
 #pageprincipale .oui:nth-child(1){
     animation-delay: 0.75s;
