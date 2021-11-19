@@ -15,14 +15,13 @@ html{
     align-items: center;
     justify-content: center;
 }
-/*content home page*/
+
 #pageprincipale{
     background-image: linear-gradient(rgba(34, 33, 33, 0.75),rgba(34, 33, 33, 0.75)),url(images/coffee.jpg);
     background-position: top center;
     background-size: cover;
     position: relative;
     background-blend-mode: darken;
-
 }
 #pageprincipale::after{
     content: '';
@@ -35,44 +34,68 @@ html{
     opacity: -7;
     color: white;
 }
-#pageprincipale h1 {
+#pageprincipale .oui {
     display: block;
     width: fit-content;
-    font-size: 6rem;
     position: relative;
     color: transparent;
     text-align: center;
     animation: text_reveal 0.5s ease forwards;
     animation-delay:1s ;
+    font-family: 'Times New Roman', Times, serif;  
+    font-size: 80px;
+    margin-top:20%;
 }
-#pageprincipale h1:nth-child(1){
-    animation-delay: 1s;
+#pageprincipale .oui:nth-child(1){
+    animation-delay: 0.75s;
 }
-#pageprincipale h1:nth-child(2){
-    animation-delay: 1.25s;
-}
-#pageprincipale h1:nth-child(3){
-    animation-delay: 1.5s;
-}
-#pageprincipale h1 span{
+/*content home page*/
+#pageprincipale .oui span{
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 0;
     background-color: #c49e7a;
-    animation: text_reveal_box 1s ease;
-    animation-delay: 0.5s;
+    animation: text_reveal_box 0.5s ease;
+    animation-delay: 0.25s;
 }
-#pageprincipale h1:nth-child(1) span{
+#pageprincipale .oui:nth-child(1) span{
     animation-delay:0.5s ;
 }
-#pageprincipale h1:nth-child(2) span{
+
+#pageprincipale h2 {
+    display: block;
+    width: fit-content;
+    font-size: 6rem;
+    position: relative;
+    color: transparent;
+    text-align: center;
+    animation: text_reveal 0.75s ease forwards;
+    animation-delay:0.5s ;
+    font-family:Brush Script MT;
+    margin-top: -5px;
+}
+
+#pageprincipale h2:nth-child(2){
+    animation-delay: 1s;
+}
+
+#pageprincipale h2 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: #c49e7a;
+    animation: text_reveal_box 0.75s ease;
+    animation-delay: 0.5s;
+}
+
+#pageprincipale h2:nth-child(2) span{
     animation-delay:0.75s ;
 }
-#pageprincipale h1:nth-child(3) span{
-    animation-delay:1s ;
-}
+
 /* end content home page*/
 /*services*/
 .services {
@@ -84,28 +107,15 @@ html{
     width: 90%;
     background-color: black;
 }
-@media only screen and (max-width: 800px){
-    .services {
-        display:inline-block;
-        justify-content:space-between;
-        background-color: black;
-        width: 80%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-left: 50px;
-        padding: 20px;
-    }}
 .service-item{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .delivery-icon {
     font-size: 50px;
     color: rgb(255, 255, 255);
     padding: 10px;
-
 }
 .delivery-container .box-content {
     font-weight: 500;
@@ -202,6 +212,21 @@ html{
 }
 .projects-item:hover .project-img img {
     transform: scale(1.1);
-
 }
 /* end project*/
+
+@media only screen and (max-width: 800px){
+    .services {
+        display:inline-block;
+        justify-content:space-between;
+        background-color: black;
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        padding: 20px;
+    }
+    *{
+    font-size: smaller;
+    }
+}
