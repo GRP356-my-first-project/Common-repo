@@ -185,6 +185,8 @@ html{
 .projects-info p{
     color: white;
     font-size: 15px;
+     text-align: justify;
+
 }
 .project-img{
     flex-basis: 50%;
