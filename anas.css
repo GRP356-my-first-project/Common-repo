@@ -94,6 +94,9 @@ h2{
 .adv:hover{
     box-shadow:0 0 100px 0px  rgba(0,0,0,0.2);
 }
+.ft1{
+    font-family:Georgia, "Times New Roman", Times, serif
+}
 /*-------------------------------contact us(bottom of the page)----------------------------------*/
 .contact-us{
     margin: 100px auto;
