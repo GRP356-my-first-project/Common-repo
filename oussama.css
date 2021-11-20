@@ -212,6 +212,9 @@ html{
 .projects-item:hover .project-img img {
     transform: scale(1.1);
 }
+.all-projects h1{
+    font-family:Vijaya
+}
 /* end project*/
 
 @media only screen and (max-width: 800px){
